@@ -29,6 +29,7 @@
 		63A6EEBC2951DBBD00E442EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A6EEBE2951DBBD00E442EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63A6EEC42951DCA100E442EA /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		63A6EEC62951ED7500E442EA /* Warning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Warning.entitlements; sourceTree = "<group>"; };
 		855FF4769E4E356240D80DEC /* Pods-Warning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Warning.release.xcconfig"; path = "Target Support Files/Pods-Warning/Pods-Warning.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +74,7 @@
 		63A6EEAF2951DBBB00E442EA /* Warning */ = {
 			isa = PBXGroup;
 			children = (
+				63A6EEC62951ED7500E442EA /* Warning.entitlements */,
 				63A6EEB02951DBBB00E442EA /* AppDelegate.swift */,
 				63A6EEB22951DBBB00E442EA /* SceneDelegate.swift */,
 				63A6EEB42951DBBB00E442EA /* ViewController.swift */,
@@ -91,7 +93,6 @@
 				4F891DB9C3763CA44E0CD388 /* Pods-Warning.debug.xcconfig */,
 				855FF4769E4E356240D80DEC /* Pods-Warning.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -359,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Warning/Warning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -387,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Warning/Warning.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
